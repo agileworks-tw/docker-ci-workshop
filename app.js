@@ -24,7 +24,6 @@ app
     .use(router.routes())
     .use(router.allowedMethods());
 
-app.listen(2371, () => console.log('server started 2371'))
+app.listen(2372, () => console.log('server started 2372'))
 
 export default app
-
